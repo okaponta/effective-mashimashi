@@ -61,8 +61,8 @@ fn spell(i: usize, j: usize) -> String {
 fn all_spell(i: usize) -> String {
     let mut res = "ゼン".to_string();
     res += match i {
-        0 => "ナシ",
-        1 => "スクナメ",
+        0 => "ブナシ",
+        1 => "ブスクナメ",
         3 => "マシ",
         _ => "マシマシ",
     };
